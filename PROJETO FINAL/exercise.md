@@ -3,7 +3,6 @@
 ## FP 1: Driving Through the City
 
 In this project you will develop the software layers responsible for the control of an autonomous car. The layers are illustrated in the picture below.
-
 [![VcXS1G.image.png](https://i.im.ge/2024/07/19/VcXS1G.image.png)](https://im.ge/i/image.VcXS1G)
 
 The ACOS layer is responsible for managing the hardware. It must provide a set of services for the CoLib layer through syscalls. The ACOS layer also contains the code that will be executed in machine mode and must be implemented in RISC-V assembly language.
